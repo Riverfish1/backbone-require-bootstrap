@@ -6,7 +6,7 @@ define(['src/components/list/listModel', 'src/components/list/listView'], functi
         });
         var view = new View({model:model});
         view.render();      //利用Model定义的默认属性初始化界面
-        model.fetch();          //拉取cgi等等，获取数据，再触发事件，界面收到消息做相应的动作
+        // model.fetch({url: './api/list'});          //拉取cgi等等，获取数据，再触发事件，界面收到消息做相应的动作
 
         controller.onRouteChange = function () {
 

@@ -1,7 +1,7 @@
 /*global define*/
 define([
     'css!src/components/list/list.css',
-    'text!src/components/list/list.html',
+    'text!src/components/list/list.html'
 ], function (css,tpl) {
     'use strict';
     var ListView = Backbone.View.extend({
@@ -12,7 +12,12 @@ define([
 
         },
         render:function(){
-            this.$el.html(this.template());
+            var self = this;
+            this.model.fetch({success: function (res) {
+                if(res){
+                    self.$el.html(self.template(self.model.toJSON()));
+                }
+            }})
             return this;
         }
     });
