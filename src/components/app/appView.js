@@ -1,10 +1,12 @@
 /*global define*/
 define([
-    'src/components/header/header',
+	'backbone',
+	'jquery',
+	'src/components/header/header',
 	'src/components/footer/footer',
 	'src/components/sidebar/nav-sidebar',
-    'css!src/components/app/app.css'
-], function (HeaderView, FooterView, NavSideBar) {
+	'css!src/components/app/app.css'
+], function (Backbone, $, HeaderView, FooterView, NavSideBar) {
 	'use strict';
 
 	var AppView = Backbone.View.extend({
@@ -22,9 +24,9 @@ define([
 		},
 
 		render: function () {
-            this.$header.html(this.headerView.render().el);
-            this.$footer.html(this.footerView.render().el);
-            this.$sidebar.html(this.navSideBarView.render().el);
+			this.$header.html(this.headerView.render().el);
+			this.$footer.html(this.footerView.render().el);
+			this.$sidebar.html(this.navSideBarView.render().el);
 			return this;
 		}
 	});
