@@ -1,12 +1,9 @@
 /*global define*/
 define([
-	'backbone',
-	'jquery',
 	'src/components/header/header',
 	'src/components/footer/footer',
-	'src/components/sidebar/nav-sidebar',
-	'css!src/components/app/app.css'
-], function (Backbone, $, HeaderView, FooterView, NavSideBar) {
+	'src/components/sidebar/nav-sidebar'
+], function (HeaderView, FooterView, NavSideBar) {
 	'use strict';
 
 	var AppView = Backbone.View.extend({

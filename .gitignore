@@ -4,3 +4,4 @@ node_modules
 *.project
 *.log
 *.DS_Store
+webpack.config1.js

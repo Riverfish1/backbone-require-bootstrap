@@ -3,7 +3,7 @@ define([
 	'jquery',
 	'underscore',
 	'backbone',
-	'text!src/components/sidebar/nav-sidebar.html',
+	'text!src/components/sidebar/nav-sidebar.html'
 ], function ($, _, Backbone, tpl) {
 	'use strict';
 	var headerView = Backbone.View.extend({

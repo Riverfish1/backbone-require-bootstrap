@@ -40,20 +40,11 @@
 			},
 			'bootstrap':{
 				deps: [
-					'jquery',
-					'css!libs/bootstrap/css/bootstrap.css',
-					'css!libs/bootstrap/css/font-awesome.min.css'
+					'jquery'
 				]
 			}
-			// bootstrap: {
-			//     deps: [
-			//         'jquery'
-			//     ],
-			//     exports: 'Bootstrap'
-			// },
 		}
 	};
-
 	require.config(config);
 
 	//Backbone会把自己加到全局变量中
