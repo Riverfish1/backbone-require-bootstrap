@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-framework="backbonejs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1"/>
+  <meta name="author" content="zhangzhijin"/>
+  <link rel="stylesheet" type="text/css" href="../../../libs/bootstrap/css/bootstrap.min.css" />
+  <title>登录</title>
+  <!--[if lte IE 9]>
+  <script src=libs/bootstrap/hack/respond.min.js></script>
+  <script src=libs/bootstrap/hack/html5shiv.min.js></script>
+  <![endif]-->
+  <style type="text/css">
+    .login_container {
+      width: 373px;
+      margin: 0 auto;
+      text-align: left;
+      border: 1px solid #ccc;
+    }
+    .login_container h4 {
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <div class="container-fluid login_container">
+      <form class="form-horizontal">
+        <h4 class="title">账户登录</h4>
+        <div class="control-group">
+          <label for="username">用户名：</label>
+          <input type="text" class="input-large" id="username" placeholder="请输入用户名">
+        </div>
+        <div class="control-group">
+          <label for="inputPassword">密码：</label>
+          <input type="password" class="input-large" id="inputPassword" placeholder="请输入密码">
+        </div>
+        <div class="control-group">
+          <button type="submit" class="btn">登录</button>
+        </div>
+      </form>
+    </div>
+  </section>
+<script type="text/javascript" src="../../../libs/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
