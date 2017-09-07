@@ -1,9 +1,8 @@
 /*global define*/
 define([
-    'src/components/header/header',
+	'src/components/header/header',
 	'src/components/footer/footer',
-	'src/components/sidebar/nav-sidebar',
-    // 'css!src/components/app/app.css'
+	'src/components/sidebar/nav-sidebar'
 ], function (HeaderView, FooterView, NavSideBar) {
 	'use strict';
 
@@ -22,9 +21,9 @@ define([
 		},
 
 		render: function () {
-            this.$header.html(this.headerView.render().el);
-            this.$footer.html(this.footerView.render().el);
-            this.$sidebar.html(this.navSideBarView.render().el);
+			this.$header.html(this.headerView.render().el);
+			this.$footer.html(this.footerView.render().el);
+			this.$sidebar.html(this.navSideBarView.render().el);
 			return this;
 		}
 	});
