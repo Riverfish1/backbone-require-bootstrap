@@ -3,20 +3,23 @@ define([
 	'jquery',
 	'underscore',
 	'backbone',
-	'text!src/components/sidebar/nav-sidebar.html'
-], function ($, _, Backbone, tpl) {
+	'text!src/components/sidebar/nav-sidebar.html',
+	'src/components/sidebar/navSidebarModel'
+], function ($, _, Backbone, tpl, modelMap) {
 	'use strict';
 	var headerView = Backbone.View.extend({
 		tagName:  'div',
 		template: _.template(tpl),
 		events: {
-			'click a.item':	'active',
+			'click a.item':	'active'
 		},
+		model: modelMap['register'],
 		initialize:function(){
-
+			Backbone.on('headerClick', this.updateSideBar, this);
 		},
 		render:function(){
-			this.$el.html(this.template());
+			debugger;
+			this.$el.html(this.template({list: this.model || []}));
 			return this;
 		},
 		active: function(e) {
@@ -42,7 +45,11 @@ define([
 				$parentUl.find('.active').not($parentLi).removeClass('active');
 				$parentLi.addClass('active');
 			}
-		}
+		},
+        updateSideBar: function (header) {
+			this.model = modelMap[header];
+			this.render();
+        }
 	});
 	return headerView;
 });

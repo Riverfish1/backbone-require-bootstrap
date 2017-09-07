@@ -1,9 +1,9 @@
 /**
- * Created by kenkozheng on 2015/7/14.
+ * Created by yujian on 2017/08/14.
  */
 
 define([], function () {
-    var Model2 = Backbone.Model.extend({
+    var ListModel = Backbone.Model.extend({
 
         //模型默认的数据
         defaults: function () {
@@ -29,5 +29,5 @@ define([], function () {
 
     });
 
-    return Model2;
+    return ListModel;
 });
