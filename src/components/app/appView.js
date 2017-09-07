@@ -3,7 +3,7 @@ define([
     'src/components/header/header',
 	'src/components/footer/footer',
 	'src/components/sidebar/nav-sidebar',
-    'css!src/components/app/app.css'
+    // 'css!src/components/app/app.css'
 ], function (HeaderView, FooterView, NavSideBar) {
 	'use strict';
 

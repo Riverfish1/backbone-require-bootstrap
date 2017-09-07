@@ -24,7 +24,7 @@
             underscore: 'libs/underscore/underscore',
             backbone: 'libs/backbone/backbone',
             text: 'libs/text' ,            //用于requirejs导入html类型的依赖
-            bootstrap: 'libs/bootstrap/js/bootstrap',
+            bootstrap: 'libs/bootstrap/js/bootstrap'
         },
         shim: {                     //引入没有使用requirejs模块写法的类库。backbone依赖underscore
             'underscore': {
@@ -42,17 +42,9 @@
             },
             'bootstrap':{
                 deps: [
-                    'jquery',
-                    'css!libs/bootstrap/css/bootstrap.css',
-                    'css!libs/bootstrap/css/font-awesome.min.css'
+                    'jquery'
                 ]
             }
-            // bootstrap: {
-            //     deps: [
-            //         'jquery'
-            //     ],
-            //     exports: 'Bootstrap'
-            // },
         }
     };
 
@@ -60,7 +52,7 @@
 
     //Backbone会把自己加到全局变量中
     // Backbone, _, Bootstrap, config, AppView
-    require(['backbone', 'underscore', 'bootstrap', 'src/router/router-cfg-version', 'src/components/app/appView'], function(Backbone, _, Bootstrap, config, AppView){
+    require(['backbone', 'underscore',  'src/router/router-cfg-version', 'src/components/app/appView'], function(Backbone, _, config, AppView){
         new AppView();
         Backbone.history.start();   //开始监控url变化
     });
