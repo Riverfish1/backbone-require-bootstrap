@@ -8,8 +8,6 @@
   },
   "dependencies": {
     "atool-build": "~0.4.x",
-    "eslint": "^4.6.1",
-    "eslint-config-airbnb": "^15.1.0",
     "mockjs": "^1.0.0-beta1",
     "qs": "^6.0.1"
   },

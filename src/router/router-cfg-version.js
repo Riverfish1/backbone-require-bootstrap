@@ -3,9 +3,9 @@
 define(['backbone'], function (Backbone) {
 
 	var routesMap = {
-        'register/officeArea': 'src/components/registerOfficeArea/indexController.js',
+    'register/officeArea': 'src/components/registerOfficeArea/indexController.js',
 		'work/department': 'src/components/list/listController.js',
-		// 'module2(/:name)': 'src/components/module2/controller2.js',
+		'login': 'src/components/login/indexController.js'
 		// '*actions': 'defaultAction'
 	};
 
@@ -23,7 +23,9 @@ define(['backbone'], function (Backbone) {
 	var router = new Router();
 	//彻底用on route接管路由的逻辑，这里route是路由对应的value
 	router.on('route', function (route, params) {
+		console.log(route, params)
 		require([route], function (controller) {
+			console.log(controller);
 			if(router.currentController && router.currentController !== controller){
 				router.currentController.onRouteChange && router.currentController.onRouteChange();
 			}

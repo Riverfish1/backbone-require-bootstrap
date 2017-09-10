@@ -63,7 +63,7 @@ define([
                             type: "post",
                             url: "/api/saveOrUpdate/register/officeArea",
                             dataType: 'json',
-                            data: {id: row.id,defaultVideo:row.defaultVideo},
+                            data: {id: row.id, defaultVideo: row.defaultVideo},
                             success: function (res, textStatus) {
                                 if (res.rc == 0) {
                                     bootbox.alert(res.msg);

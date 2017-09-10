@@ -8,12 +8,14 @@ define([], function () {
         //模型默认的数据
         defaults: function () {
             return {
-                videoNum: "0",
-                uploadTime: "",
-                playNum: "0"
+                username: 'test1',
+                password: 123456,
+                videoNum: 12,
+                uploadTime: 60,
+                playNum: 10
             };
         },
-        urlRoot: './api/list'
+        urlRoot: '/login/login'
 
         // // 定义一些方法
         // fetch: function () {
