@@ -25,10 +25,28 @@ var list = {
 
 var listMock = {
     'videoNum|1-100': 100,
-    'uploadTime|1-1000': 1000,
+    'uploadTime|1-1000': 10,
     'playNum|1-100': 100
 }
 
+var listOfficArea = {
+    total: '30',
+    'rows|30': [{
+        'title' : '@Title',
+        'use' : '@Title',
+        'area|1-10': '10',
+        'address': '@Address',
+        'picture': 'static/images/logo_teb.png',
+        'des': '@Title'
+    }],
+    'success': true,
+    'rc|1': [0]
+}
+var saveOrUpdateOfficeAreaList = {
+    'success': true,
+    'rc|1': [0],
+    'msg': '更新成功'
+}
 
 module.exports = {
 
@@ -52,5 +70,7 @@ module.exports = {
 
     'GET /x.do': Mock.mock({'name': '@Name'}),
     'GET /api/list.do': Mock.mock(list),
-    'GET /api/list': Mock.mock(listMock)
+    'GET /api/list': Mock.mock(listMock),
+    'GET /api/register/officeArea': Mock.mock(listOfficArea),
+    'POST /api/saveOrUpdate/register/officeArea': Mock.mock(saveOrUpdateOfficeAreaList)
 };

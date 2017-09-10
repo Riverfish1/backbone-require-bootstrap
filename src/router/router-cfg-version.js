@@ -3,9 +3,9 @@
 define(['backbone'], function (Backbone) {
 
 	var routesMap = {
-		'list': 'src/components/list/listController.js',
-		'module1': 'module1/controller1.js',            //原来应该是一个方法名，这里取巧改为模块路径
-		'module2(/:name)': 'module2/controller2.js',
+        'register/officeArea': 'src/components/registerOfficeArea/indexController.js',
+		'work/department': 'src/components/list/listController.js',
+		// 'module2(/:name)': 'src/components/module2/controller2.js',
 		// '*actions': 'defaultAction'
 	};
 

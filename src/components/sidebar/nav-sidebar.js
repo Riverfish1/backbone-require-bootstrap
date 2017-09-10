@@ -18,7 +18,6 @@ define([
 			Backbone.on('headerClick', this.updateSideBar, this);
 		},
 		render:function(){
-			debugger;
 			this.$el.html(this.template({list: this.model || []}));
 			return this;
 		},

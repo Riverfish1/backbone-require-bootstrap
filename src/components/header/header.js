@@ -16,7 +16,9 @@ define([
 
 		},
         updateNavSideBar: function (e) {
-			var $el = $(e.target);
+			var $el = $(e.target), $parentLi = $el.parents('li'), $parentUl = $el.parents('ul');
+            $parentUl.find('li').removeClass('active');
+            $parentLi.addClass('active');
             Backbone.trigger('headerClick', $el.attr('href').split('/')[1]);
         },
 		render:function(){
