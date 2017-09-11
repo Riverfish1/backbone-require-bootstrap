@@ -49,6 +49,11 @@ var delOfficeAreaList = {
     'errorMsg': '更新成功'
 }
 
+var commonDataReturn = {
+    'success': true,
+    'msg': '登录成功'
+}
+
 module.exports = {
 
     'GET /y.do': function (req, res) {
@@ -70,6 +75,7 @@ module.exports = {
     },
 
     'GET /x.do': Mock.mock({'name': '@Name'}),
+    'GET /api/login': Mock.mock(commonDataReturn),
     'GET /api/list.do': Mock.mock(list),
     'GET /api/list': Mock.mock(listMock),
     'GET /api/register/officeArea': Mock.mock(listOfficArea),

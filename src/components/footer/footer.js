@@ -6,13 +6,13 @@ define([
 	'text!src/components/footer/footer.html',
 ], function ($, _, Backbone, tpl) {
 	'use strict';
-	var FooterView= Backbone.View.extend({
-		tagName:  'div',
+	var FooterView = Backbone.View.extend({
+		tagName: 'div',
 		template: _.template(tpl),
-		initialize:function(){
+		initialize: function(){
 
 		},
-		render:function(){
+		render: function(){
 			this.$el.html(this.template());
 			return this;
 		}

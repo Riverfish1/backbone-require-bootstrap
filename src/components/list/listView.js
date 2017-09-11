@@ -8,16 +8,23 @@ define([
         el: '#main',
         tagName:  'div',
         template: _.template(tpl),
-        initialize:function(){
+        initialize: function(){
 
         },
-        render:function(){
+        render: function(){
             var self = this;
-            this.model.fetch({success: function (res) {
-                if(res){
-                    self.$el.html(self.template(self.model.toJSON()));
-                }
-            }})
+            this.model.fetch({
+                type: 'post',
+                data: {
+                    account: 'test1',
+                    password: 1234
+                },
+                success: function (res) {
+                    if(res){
+                        self.$el.html(self.template(self.model.toJSON()));
+                    }
+                },
+            })
             return this;
         }
     });
