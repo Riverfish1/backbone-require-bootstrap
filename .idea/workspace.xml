@@ -2,35 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b05b477c-8ddd-49c2-941a-d5ea5c975d49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bootbox/bootbox.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bootstrap.table/bootstrap-table-zh-CN.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bootstrap.table/bootstrap-table.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/bootstrap.table/bootstrap-table.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jquery/jquery.cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jquery/jquery.form.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jquery/jquery.validate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/app/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/baseTable/indexCollection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/baseTable/indexModel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/baseTable/indexView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/registerOfficeArea/dialog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/registerOfficeArea/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/registerOfficeArea/indexController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/registerOfficeArea/indexModel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/registerOfficeArea/indexView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/workDepartment/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/workDepartment/indexController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/workDepartment/indexModel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/workDepartment/indexView.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proxy.config.js" afterPath="$PROJECT_DIR$/proxy.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/app/app.css" afterPath="$PROJECT_DIR$/src/components/app/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/header/header.html" afterPath="$PROJECT_DIR$/src/components/header/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/header/header.js" afterPath="$PROJECT_DIR$/src/components/header/header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/sidebar/nav-sidebar.js" afterPath="$PROJECT_DIR$/src/components/sidebar/nav-sidebar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/app/common.js" afterPath="$PROJECT_DIR$/src/components/app/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/baseTable/indexCollection.js" afterPath="$PROJECT_DIR$/src/components/baseTable/indexCollection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/baseTable/indexModel.js" afterPath="$PROJECT_DIR$/src/components/baseTable/indexModel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/baseTable/indexView.js" afterPath="$PROJECT_DIR$/src/components/baseTable/indexView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/list/listModel.js" afterPath="$PROJECT_DIR$/src/components/list/listModel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/registerOfficeArea/dialog.html" afterPath="$PROJECT_DIR$/src/components/registerOfficeArea/dialog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/registerOfficeArea/index.html" afterPath="$PROJECT_DIR$/src/components/registerOfficeArea/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/registerOfficeArea/indexView.js" afterPath="$PROJECT_DIR$/src/components/registerOfficeArea/indexView.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.js" afterPath="$PROJECT_DIR$/src/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/router/router-cfg-version.js" afterPath="$PROJECT_DIR$/src/router/router-cfg-version.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,11 +30,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="router-cfg-version.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/router/router-cfg-version.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+            <state relative-caret-position="132">
+              <caret line="92" column="43" lean-forward="true" selection-start-line="92" selection-start-column="43" selection-end-line="92" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -71,14 +63,22 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="listModel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/list/listModel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/app/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="57" column="7" lean-forward="false" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,11 +93,74 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="listView.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/list/listView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="indexView.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/registerOfficeArea/indexView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="70" column="69" lean-forward="true" selection-start-line="70" selection-start-column="69" selection-end-line="70" selection-end-column="69" />
+            <state relative-caret-position="216">
+              <caret line="29" column="50" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css.map" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/bootstrap/css/bootstrap.css.map">
+          <provider editor-type-id="sourcemapFileViewerProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="0" column="82057" lean-forward="false" selection-start-line="0" selection-start-column="82057" selection-end-line="0" selection-end-column="82057" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/bootstrap/css/bootstrap.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="1713" column="1" lean-forward="true" selection-start-line="1713" selection-start-column="1" selection-end-line="1713" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dialog.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/registerOfficeArea/dialog.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="indexController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/registerOfficeArea/indexController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zepto.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/jquery/zepto.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="1" column="1967" lean-forward="false" selection-start-line="1" selection-start-column="1967" selection-end-line="1" selection-end-column="1967" />
               <folding />
             </state>
           </provider>
@@ -106,8 +169,41 @@
       <file leaf-file-name="proxy.config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proxy.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+            <state relative-caret-position="521">
+              <caret line="78" column="2" lean-forward="true" selection-start-line="78" selection-start-column="2" selection-end-line="78" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="indexModel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/baseTable/indexModel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="indexView.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/baseTable/indexView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="124" column="48" lean-forward="false" selection-start-line="124" selection-start-column="48" selection-end-line="124" selection-end-column="48" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1505035226000" expanded="true" signature="3409:3434" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="indexModel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/registerOfficeArea/indexModel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -116,8 +212,8 @@
       <file leaf-file-name="appView.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/app/appView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="3" />
+            <state relative-caret-position="255">
+              <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -125,24 +221,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="indexCollection.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/baseTable/indexCollection.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/registerOfficeArea/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="indexView.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/baseTable/indexView.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="125" column="13" lean-forward="false" selection-start-line="125" selection-start-column="13" selection-end-line="125" selection-end-column="13" />
+            <state relative-caret-position="-13">
+              <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="40" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <marker date="1504926201000" expanded="true" signature="3293:3318" ph="..." />
+                <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,7 +246,18 @@
       <find>col-sm-4</find>
       <find>departmentname</find>
       <find>|@Title</find>
+      <find>saveOrUpdate</find>
+      <find>BUI.Message.Alert</find>
+      <find>jQuery</find>
       <find>result</find>
+      <find>res.rc == 0</find>
+      <find>area</find>
+      <find>address</find>
+      <find>msg</find>
+      <find>gmtCreate</find>
+      <find>areaSize</find>
+      <find>initSubmitForm</find>
+      <find>this.model</find>
     </findStrings>
     <replaceStrings>
       <replace>yujian</replace>
@@ -171,7 +267,14 @@
       <replace>%</replace>
       <replace>col-md-3</replace>
       <replace>col-md-9</replace>
+      <replace>del</replace>
+      <replace>showInfo</replace>
+      <replace>$</replace>
       <replace>res</replace>
+      <replace>res.success</replace>
+      <replace>areaSize</replace>
+      <replace>areaAddress</replace>
+      <replace>errorMsg</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -192,7 +295,6 @@
         <option value="$PROJECT_DIR$/src/components/list/list.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/components/app/appView.js" />
-        <option value="$PROJECT_DIR$/src/components/list/listModel.js" />
         <option value="$PROJECT_DIR$/src/components/sidebar/navSidebarModel.js" />
         <option value="$PROJECT_DIR$/src/components/sidebar/nav-sidebar.html" />
         <option value="$PROJECT_DIR$/src/components/header/header.js" />
@@ -201,19 +303,22 @@
         <option value="$PROJECT_DIR$/src/components/baseTable/list.html" />
         <option value="$PROJECT_DIR$/src/components/baseTable/index.html" />
         <option value="$PROJECT_DIR$/src/components/registerOfficeArea/indexModel.js" />
-        <option value="$PROJECT_DIR$/src/components/baseTable/indexModel.js" />
-        <option value="$PROJECT_DIR$/src/components/baseTable/indexCollection.js" />
         <option value="$PROJECT_DIR$/src/router/router-cfg-version.js" />
         <option value="$PROJECT_DIR$/src/components/registerOfficeArea/indexController.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/components/app/app.css" />
-        <option value="$PROJECT_DIR$/src/components/registerOfficeArea/dialog.html" />
-        <option value="$PROJECT_DIR$/src/components/registerOfficeArea/index.html" />
-        <option value="$PROJECT_DIR$/src/components/baseTable/indexView.js" />
-        <option value="$PROJECT_DIR$/proxy.config.js" />
-        <option value="$PROJECT_DIR$/src/components/registerOfficeArea/indexView.js" />
         <option value="$PROJECT_DIR$/src/components/app/common.js" />
         <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/src/components/list/listModel.js" />
+        <option value="$PROJECT_DIR$/libs/jquery/jquery.validate.js" />
+        <option value="$PROJECT_DIR$/src/components/baseTable/indexCollection.js" />
+        <option value="$PROJECT_DIR$/src/components/baseTable/indexModel.js" />
+        <option value="$PROJECT_DIR$/src/components/registerOfficeArea/index.html" />
+        <option value="$PROJECT_DIR$/libs/bootstrap/css/bootstrap.css.map" />
+        <option value="$PROJECT_DIR$/src/components/baseTable/indexView.js" />
+        <option value="$PROJECT_DIR$/src/components/registerOfficeArea/dialog.html" />
+        <option value="$PROJECT_DIR$/proxy.config.js" />
+        <option value="$PROJECT_DIR$/src/components/registerOfficeArea/indexView.js" />
       </list>
     </option>
   </component>
@@ -514,8 +619,74 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bootbox" />
+              <option name="myItemId" value="jquery" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="font_end_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="font_end_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="font_end_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="font_end_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="font_end_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="font_end_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap.min.css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -530,7 +701,7 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="FullScreen" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="main.js&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/main.js&#10;mian.js&#9;null&#9;null&#10;head.js&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/header/header.js&#10;nav-si&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/sidebar/nav-sidebar.js&#10;app.css&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/app/app.css&#10;viewer-jquery.js&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/libs/tools/viewer-jquery.min.js&#10;list.j&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/list/listView.js&#10;base.&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/libs/common/js/base.js&#10;list&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/list/listView.js&#10;appv.js&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/app/appView.js&#10;nav-&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/sidebar/nav-sidebar.html&#10;head.html&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/header/header.html&#10;appv&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/app/appView.js&#10;navSidebarModel.&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/sidebar/navSidebarModel.js&#10;n&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/sidebar/nav-sidebar.js&#10;listController.js&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/list/listController.js&#10;hea&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/header/header.html&#10;mock.js&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/node_modules/mockjs/dist/mock.js&#10;rout&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/router/router-cfg-version.js&#10;listC&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/list/listController.js&#10;header.html&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/header/header.html&#10;boot&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/libs/bootstrap/css/bootstrap.min.css&#10;list.html&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/list/list.html&#10;nav-si.ht&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/sidebar/nav-sidebar.html&#10;hea.&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/header/header.html" />
+    <property name="SearchEverywhereHistoryKey" value="in&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/registerOfficeArea/indexView.js&#10;main.js&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/main.js&#10;commonjs&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/app/common.js&#10;pro&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/proxy.config.js&#10;common.js&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/app/common.js&#10;comm.js&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/app/common.js&#10;co.js&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/app/common.js&#10;com&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/app/common.js&#10;apview.js&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/app/appView.js&#10;mian.js&#9;null&#9;null&#10;head.js&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/header/header.js&#10;nav-si&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/sidebar/nav-sidebar.js&#10;app.css&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/app/app.css&#10;viewer-jquery.js&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/libs/tools/viewer-jquery.min.js&#10;list.j&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/list/listView.js&#10;base.&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/libs/common/js/base.js&#10;list&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/list/listView.js&#10;appv.js&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/app/appView.js&#10;nav-&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/sidebar/nav-sidebar.html&#10;head.html&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/header/header.html&#10;appv&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/app/appView.js&#10;navSidebarModel.&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/sidebar/navSidebarModel.js&#10;n&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/sidebar/nav-sidebar.js&#10;listController.js&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/list/listController.js&#10;hea&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/header/header.html&#10;mock.js&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/node_modules/mockjs/dist/mock.js&#10;rout&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/router/router-cfg-version.js&#10;listC&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/list/listController.js&#10;header.html&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/header/header.html&#10;boot&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/libs/bootstrap/css/bootstrap.min.css&#10;list.html&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/list/list.html&#10;nav-si.ht&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/sidebar/nav-sidebar.html&#10;hea.&#9;FILE&#9;file:///Users/yujian/Desktop/yujian/font_end_test/src/components/header/header.html" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -946,12 +1117,12 @@
       <workItem from="1504863607679" duration="4000" />
       <workItem from="1504864111271" duration="5726000" />
       <workItem from="1504872727797" duration="1460000" />
-      <workItem from="1504874243982" duration="29442000" />
+      <workItem from="1504874243982" duration="44126000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60765000" />
+    <option name="totallyTimeSpent" value="75449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -974,6 +1145,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28836834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.4943182" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -984,7 +1156,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1006,47 +1177,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webpack.config1.js" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/bootstrap/hack/html5media.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/bootstrap/hack/respond.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/bootstrap/hack/html5shiv.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/bootstrap/css/bootstrap.css" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/bootstrap/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="427" column="25" lean-forward="true" selection-start-line="427" selection-start-column="25" selection-end-line="427" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1187,34 +1321,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/list/listView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/module2/view2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="10" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="10" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/baseTable/indexModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/list/listModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -1224,43 +1334,6 @@
         <state relative-caret-position="378">
           <caret line="621" column="44" lean-forward="true" selection-start-line="621" selection-start-column="44" selection-end-line="621" selection-end-column="44" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/registerOfficeArea/indexModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/registerOfficeArea/indexController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/registerOfficeArea/dialog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/registerOfficeArea/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="48" column="63" lean-forward="false" selection-start-line="48" selection-start-column="63" selection-end-line="48" selection-end-column="63" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="false" />
-            <element signature="e#1846#1853#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1296,38 +1369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/router/router-cfg-version.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/workDepartment/indexView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/registerOfficeArea/indexView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="70" column="69" lean-forward="true" selection-start-line="70" selection-start-column="69" selection-end-line="70" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/header/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
@@ -1339,10 +1380,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/app/appView.js">
+    <entry file="file://$PROJECT_DIR$/src/components/workDepartment/indexView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="3" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/app/appView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -1351,38 +1400,180 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/app/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="57" column="7" lean-forward="false" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/router-cfg-version.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/list/listView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/list/listModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+        <state relative-caret-position="132">
+          <caret line="92" column="43" lean-forward="true" selection-start-line="92" selection-start-column="43" selection-end-line="92" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/baseTable/indexCollection.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="136">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/jquery/jquery.validate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6958">
+          <caret line="617" column="10" lean-forward="false" selection-start-line="617" selection-start-column="10" selection-end-line="617" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/jquery/jquery-1.12.0.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="3" column="13248" lean-forward="false" selection-start-line="3" selection-start-column="13248" selection-end-line="3" selection-end-column="13248" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/jquery/zepto.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="1" column="1967" lean-forward="false" selection-start-line="1" selection-start-column="1967" selection-end-line="1" selection-end-column="1967" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/baseTable/indexModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/bootstrap/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="1713" column="1" lean-forward="true" selection-start-line="1713" selection-start-column="1" selection-end-line="1713" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/bootstrap/css/bootstrap.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="0" column="82057" lean-forward="false" selection-start-line="0" selection-start-column="82057" selection-end-line="0" selection-end-column="82057" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="78" column="2" lean-forward="true" selection-start-line="78" selection-start-column="2" selection-end-line="78" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/baseTable/indexView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="125" column="13" lean-forward="false" selection-start-line="125" selection-start-column="13" selection-end-line="125" selection-end-column="13" />
+        <state relative-caret-position="438">
+          <caret line="124" column="48" lean-forward="false" selection-start-line="124" selection-start-column="48" selection-end-line="124" selection-end-column="48" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1504926201000" expanded="true" signature="3293:3318" ph="..." />
+            <marker date="1505035226000" expanded="true" signature="3409:3434" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/registerOfficeArea/indexModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/registerOfficeArea/indexController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/registerOfficeArea/indexView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="29" column="50" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/registerOfficeArea/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/registerOfficeArea/dialog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>

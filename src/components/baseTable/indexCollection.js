@@ -7,7 +7,7 @@ define(['src/components/baseTable/indexModel'], function (Model) {
         model: Model,
         url: './api/register/officeArea',
         parse : function(res) {
-            if(res.rc == 0){
+            if(res.success){
                return res.list;
             }
         }

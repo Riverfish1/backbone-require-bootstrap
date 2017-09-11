@@ -29,7 +29,7 @@
 			jqueryValid: 'libs/jquery/jquery.validate',
 			jqueryForm: 'libs/jquery/jquery.form.min',
 			jqueryCookie: 'libs/jquery/jquery.cookie',
-			common: 'src/compone'
+			common: 'src/components/app/common'
 			// imgViewTool: 'libs/tools/viewer-jquery.min'
 		},
 		shim: {                     //引入没有使用requirejs模块写法的类库。backbone依赖underscore
@@ -54,7 +54,7 @@
 			'bootstrapTableLocal': {
                 deps: [
                     // 'jquery', 'bootstrap', 'bootstrapTable', 'imgViewTool'
-                    'jquery', 'bootstrap', 'bootstrapTable', 'box', 'jqueryValid', 'jqueryForm', 'jqueryCookie'
+                    'jquery', 'bootstrap', 'bootstrapTable', 'box', 'jqueryValid', 'jqueryForm', 'jqueryCookie', 'common'
                 ],
                 exports: 'BootstrapTableLocal'
 			},
@@ -87,7 +87,13 @@
                     'jquery'
                 ],
                 exports: 'JqueryCookie'
-            }
+            },
+			'common': {
+                deps: [
+                    'jquery', 'jqueryValid'
+                ],
+                exports: 'Common'
+			}
 
 
             // 'imgViewTool': {

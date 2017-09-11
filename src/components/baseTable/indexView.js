@@ -25,6 +25,9 @@ define([], function () {
         render: function () {
             this.init();
         },
+        refresh: function () {
+            this.$el.bootstrapTable('refresh');
+        },
         init: function () {
             this.$el.bootstrapTable({
                 url: '/api/register/officeArea', //请求后台的URL（*）
@@ -52,18 +55,18 @@ define([], function () {
                 cardView: false, //是否显示详细视图
                 detailView: false, //是否显示父子表
                 columns: [{
-                    field: 'title',
+                    field: 'areaName',
                     title: '办公区名称',
                     align: 'center',
                     valign: "middle"
                 }, {
-                    field: 'use',
+                    field: 'areaUsage',
                     title: '用途'
                     ,
                     align: 'center',
                     valign: "middle",
                 }, {
-                    field: 'area',
+                    field: 'areaSize',
                     title: '面积',
                     align: 'center',
                     valign: "middle",
@@ -71,13 +74,13 @@ define([], function () {
                         return value ? value + "㎡" : "";
                     }
                 }, {
-                    field: 'address',
+                    field: 'areaAddress',
                     title: '地址'
                     ,
                     align: 'center',
                     valign: "middle",
                 }, {
-                    field: 'picture',
+                    field: 'areaPhotoAddress',
                     title: '图片',
                     align: 'center',
                     valign: "middle",
@@ -85,7 +88,7 @@ define([], function () {
                         return value ? "<img class='view' style='width:100px; height:100px' src='" + value + "'/>" : "";
                     }
                 }, {
-                    field: 'des',
+                    field: 'areaDescription',
                     title: '描述'
                     ,
                     align: 'center',

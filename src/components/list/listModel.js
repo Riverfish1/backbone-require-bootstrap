@@ -13,7 +13,7 @@ define([], function () {
                 playNum: "0"
             };
         },
-        urlRoot: './api/list'
+        urlRoot: '/api/list'
 
         // // 定义一些方法
         // fetch: function () {
