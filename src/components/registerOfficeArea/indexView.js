@@ -60,33 +60,14 @@ define([
                 message: '执行删除后将无法恢复，确定继续吗？',
                 callback: function (result) {
                     if (result) {
-<<<<<<< HEAD
                         ncjwUtil.getData("/api/del/register/officeArea", {id: row.id}, function (res) {
                             if (res.success) {
                                 ncjwUtil.showInfo(res.errorMsg);
                                 that.table.refresh();
                             } else {
                                 ncjwUtil.showError("删除失败：" + res.errorMsg);
-=======
-                        $.ajax({
-                            type: "post",
-                            url: "/api/saveOrUpdate/register/officeArea",
-                            dataType: 'json',
-                            data: {id: row.id, defaultVideo: row.defaultVideo},
-                            success: function (res, textStatus) {
-                                if (res.rc == 0) {
-                                    bootbox.alert(res.msg);
-                                    that.table.render();
-                                    // Info.showInfo(result.message);
-                                    // window.location.href=APPNAME+"/template/VR/index";
-                                    // $("#table-pagination").bootstrapTable('refresh', {});
-                                } else {
-                                    bootbox.alert("删除失败：" + res.msg);
-                                    // Info.showError("删除失败：" + result.message);
-                                }
->>>>>>> ace8fc809d2e60b9c6c56bdfedb8d29db4733af1
                             }
-                        }, {"contentType": "application/json"})
+                        })
                     }
                 }
 
