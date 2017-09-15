@@ -14,7 +14,7 @@ define([
         render: function(){
             var self = this;
             this.model.fetch({
-                type: 'post',
+                type: 'get',
                 data: {
                     account: 'test1',
                     password: 1234

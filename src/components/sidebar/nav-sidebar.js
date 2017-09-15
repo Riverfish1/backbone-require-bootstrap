@@ -15,7 +15,7 @@ define([
 		},
 		model: modelMap['register'],
 		initialize:function(){
-			Backbone.on('headerClick', this.updateSideBar, this);
+			Backbone.on('routeChange', this.updateSideBar, this);
 		},
 		render:function(){
 			this.$el.html(this.template({list: this.model || []}));
@@ -46,7 +46,9 @@ define([
 			}
 		},
         updateSideBar: function (header) {
-			this.model = modelMap[header];
+			// debugger;
+			var key = header.split('/')[1];
+			this.model = modelMap[key];
 			this.render();
         }
 	});

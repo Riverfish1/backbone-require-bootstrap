@@ -106,7 +106,8 @@ define([], function () {
                         return str;
                     }
                 }],
-                onLoadSuccess: function (data) {
+                onPostBody: function (data) {
+                    $('.view').viewer();
                 }
             });
             // this.hideLoading();

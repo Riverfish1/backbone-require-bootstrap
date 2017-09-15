@@ -22,12 +22,12 @@ define([
             // that.collection  = new  BaseTableCollection([]);
             // that.collection.fetch({success: onDataHandler});
             // this.table = new BaseTableView();
-            Backbone.on('itemEdit', this.addOne, this);
-            Backbone.on('itemDelete', this.delOne, this);
+            Backbone.off('itemEdit').on('itemEdit', this.addOne, this);
+            Backbone.off('itemDelete').on('itemDelete', this.delOne, this);
         },
         render: function () {
             //main view
-            this.$el.html(this.template(this.model.toJSON()));
+            this.$el.empty().html(this.template(this.model.toJSON()));
             this.$officeDialog = this.$el.find('#encoding-library-dialog');
             this.$officeDialogPanel = this.$el.find('#encodingLibrary-panl');
             //table view

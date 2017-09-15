@@ -9,17 +9,22 @@ define([
 	var HeaderView = Backbone.View.extend({
 		tagName:  'div',
 		template: _.template(tpl),
-        events: {
-            'click a':	'updateNavSideBar'
-        },
+        // events: {
+        //     'click a':	'updateNavSideBar'
+        // },
 		initialize:function(){
-
+			Backbone.off('routeChange').on('routeChange', this.updateNavSideBar)
 		},
-        updateNavSideBar: function (e) {
-			var $el = $(e.target), $parentLi = $el.parents('li'), $parentUl = $el.parents('ul');
-            $parentUl.find('li').removeClass('active');
-            $parentLi.addClass('active');
-            Backbone.trigger('headerClick', $el.attr('href').split('/')[1]);
+        updateNavSideBar: function (hash) {
+            var hashFirst = hash.split('/')[1];
+            var $header = $('header'), $li = $header.find('li');
+            $li.removeClass('active');
+            $li.each(function (k, el) {
+                var $el = $(el), $a = $el.find('a');
+                if($a.prop('href').indexOf(hashFirst) > 0){
+                    $el.addClass('active');
+                }
+            })
         },
 		render:function(){
 			this.$el.html(this.template());
